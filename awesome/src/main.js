@@ -13,12 +13,12 @@ Vue.use(Vuetify)
 Vue.config.productionTip = false
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyD6UmvLZcElbe0of2L52LShoGpqpOWpY5s',
-  authDomain: 'awesome-3ffcc.firebaseapp.com',
-  databaseURL: 'https://awesome-3ffcc.firebaseio.com',
-  projectId: 'awesome-3ffcc',
-  storageBucket: 'awesome-3ffcc.appspot.com',
-  messagingSenderId: '583124458916'
+  apiKey: '<API_KEY>',
+  authDomain: '<AUTH_DOMAIN>',
+  databaseURL: '<DATABASE_URL>',
+  projectId: '<PROJECT_ID>',
+  storageBucket: '<STORAGE_BUCKET>',
+  messagingSenderId: '<MESSAGING_SENDER_ID>'
 })
 
 /* eslint-disable no-new */
